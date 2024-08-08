@@ -1,6 +1,6 @@
 import { Module } from '@nestjs/common';
-import { XmlToJsonController } from './XmlToJson.controller';
-import { XmlToJsonService } from './XmlToJson.service';
+import { XmlToJsonController } from './xmltojson.controller';
+import { XmlToJsonService } from './xmltojson.service';
 
 @Module({
     controllers: [XmlToJsonController],

@@ -4,7 +4,7 @@ import { AppController } from './app.controller';
 import { AppService } from './app.service';
 import { PaymentModel } from './payment/payment.model';
 import { UserModule } from './user/user.model';
-import { XmlToJsonModel } from './XmlToJson/XmlToJson.model';
+import { XmlToJsonModel } from './xmltojson/xmltojson.model';
 
 @Module({
     imports: [

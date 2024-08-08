@@ -4,7 +4,7 @@ import * as fs from 'fs';
 // import path from "path";
 import { AuthGuard } from "@nestjs/passport";
 import * as path from "path";
-import { XmlToJsonService } from "./XmlToJson.service";
+import { XmlToJsonService } from "./xmltojson.service";
 
 @ApiTags("QuanLyXmlToJson")
 @Controller('api')
